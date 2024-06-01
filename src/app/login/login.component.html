@@ -1,0 +1,25 @@
+
+    <div class="container-fluid">
+        <div class="row rock d-flex justify-content-center pt-5">
+                <div class="col-md-4">
+                    <h2>Login to Happy E-learning</h2>
+                    <form action="" (ngSubmit)="checklogin()">
+                        <div class="form-group">
+                            <label for="" class="form-label">Username</label>
+                            <input type="text" class="form-control" name="Username"[(ngModel)]="Username" placeholder="Enter username" requred="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-label"> Password</label>
+                            <input type="password" class="form-control"name="password" [(ngModel)]="password" placeholder="Enter password" reqquired="true">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-lg m-2" type="Submit">Login</button>
+                            <button class="btn btn-danger btn-lg" type="reset">Cancel</button>
+                        </div>
+                     </form>
+                    </div>
+                </div>
+        
+            </div>
+          <router-outlet></router-outlet>
+
